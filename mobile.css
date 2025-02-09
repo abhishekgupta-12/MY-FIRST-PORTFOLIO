@@ -1,0 +1,124 @@
+@media (max-width: 768px) {
+  html {
+    font-size: 12px;
+  }
+  nav div {
+    margin: 12px 3px;
+  }
+  .intro-list {
+    display: none;
+  }
+  .content {
+    margin: 8px 12px;
+  }
+  .left-intro {
+    margin-top: 50px;
+  }
+  .right-navbar ul li a {
+    margin: 1px 5px;
+    padding: 2px 5px;
+  }
+  .left-intro h1 {
+    font-size: 22px;
+  }
+
+  .right-intro img {
+    margin-top: 45px;
+    width: 160px;
+    height: auto;
+  }
+  .right-intro img:hover {
+    width: 17uu0px;
+    height: auto;
+  }
+  .description {
+    display: none;
+  }
+  #Education-Section {
+    margin: 38px 10px;
+  }
+  
+  #Information-Technology {
+    padding: 8px;
+    margin-left: 8px;
+  }
+
+  #Information-Technology .Download-Option {
+    position: relative;
+    left: -40px;
+  }
+
+  /* SKills */
+  .circle{
+    width: 70px;
+    height: 70px;
+    margin: 5px;
+  }
+  circle span{
+    font-size: 0.7rem;
+  }
+  #Skills-Section {
+    margin-top: 20px;
+    padding: 5px 5px;
+  }
+  #Skills-Section h1 {
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+
+  #Skills-Section h2 {
+    margin-top: 20px;
+  }
+  .Circle-Container {
+    margin-left: 5px;
+    margin-top: 5px;
+  }  
+
+  #Certificate-Section {
+    height: auto;
+  }
+  #Certificate-Section h1 {
+    /* font-size: 20px; */
+    margin-top: 5px;
+    margin-left: 10px;
+  }
+  #Certificate-Section ul {
+    margin-left: 20px;
+    margin-top: 5px;
+    padding: 5px 5px;
+    width: 130px;
+  }
+  #Certificate-Section ul li {
+    padding: 5px 5px;
+    margin-left: 10px;
+    font-size: 1.2rem;
+    text-shadow: 1px 1px 2px #1edfa8;
+  }
+ 
+  #Certificate-Section ul li:hover {
+    font-size: 1.25rem;
+  }
+ 
+
+  .rightOfCerti ul li img {
+    width: 150px;
+    height: auto;
+    top: 100px;
+    left: 20px;
+  }
+
+  
+  #ContactMe-Section {
+    margin-left: 10px;
+  }
+  .footer ul li {
+    padding: 0px 0px;
+  }
+  .Download-Option {
+    display: none;
+  }
+  #credit {
+    padding: 3px 3px;
+    margin-bottom: 10px;
+  }
+}

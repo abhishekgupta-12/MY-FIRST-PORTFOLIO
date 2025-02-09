@@ -1,0 +1,513 @@
+/* For variables */
+:root {
+  --dark-Blue-Color: #081b29;
+  --blue-Color: #00abf0;
+  --purple-Color: #8d018d;
+  --blueGreenShade-color: #00ffd5;
+}
+/* Common CSS */
+* {
+  margin: 0px;
+  padding: 0px;
+  color: white;
+}
+
+html{
+  font-size: 16px;
+}
+@media screen and (max-width: 768px) {
+  html{
+    font-size: 12px;
+  }
+}
+
+/* Body */
+body {
+  background-color: var(--dark-Blue-Color);
+}
+/* NavBar */
+nav {
+  background-color: #0e2f4740;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  justify-content: space-between;
+}
+nav div {
+  margin: 12px 19px;
+}
+#logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-shadow: 2px 2px black;
+  cursor: pointer;
+}
+.right-navbar ul {
+  display: flex;
+}
+.right-navbar ul li {
+  list-style: none;
+  margin-top: 5px;
+}
+.right-navbar ul li a {
+  padding: 0.4rem 1.6rem;
+  text-decoration: none;
+  font-size: 1.05rem;
+  border-radius: 1rem;
+}
+.right-navbar ul li a:hover {
+  font-size: 1.1rem;
+  background-color: var(--blue-Color);
+}
+.Download-Option {
+  position: relative;
+  top: 5px;
+  left: 100px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  color: var(--dark-Blue-Color);
+  display: inline-block;
+  background-color: #0fbc9f;
+  border: 4px solid #0a0059cc;
+  width: 90px;
+  height: 20px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px #00ffd5c3;
+}
+.Download-Option:hover {
+  background-color: #0de1be6e;
+  border: 5px solid #0b015983;
+  width: 100px;
+  height: 25px;
+  box-shadow: none;
+}
+
+
+.circle {
+  border: 1.5px solid black;
+  background-color: rgba(218, 165, 32, 0.656);
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.circle:hover {
+  border-width: 2.5px;
+  background-color: gold;
+  font-weight: bold;
+}
+.circle:hover span {
+  color: black;
+  font-size: 0.9rem;
+}
+.circle p {
+  display: none;
+}
+.circle:hover p {
+  font-size: 0.8rem;
+  display: inline-block;
+  color: darkslategray;
+}
+.Circle-Container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 30px;
+  margin-top: 20px;
+  justify-content: space-evenly;
+  width: 95%;
+}
+.Circle-Container1 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 30px;
+  margin-top: 20px;
+  justify-content: space-evenly;
+  width: 95%;
+  border: 2px solid;
+}
+
+
+/* Common CSS ENDS */
+
+/* Introductory Part */
+.Introductory {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+.right-intro img {
+  margin-top: 45px;
+  height: 700px;
+  border-radius: 30px;
+  box-shadow: 0px 0px 20px 3px var(--blue-Color);
+  transition: all 0.1s linear;
+}
+.right-intro img:hover {
+  
+  transform: translate(0px,-5px);
+}
+#element {
+  color: var(--blue-Color);
+  font-size: 2.1rem;
+  text-shadow: 2px 2px #8d018db8;
+}
+.left-intro {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  width: 30%;
+}
+.left-intro h1 {
+  color: rgba(255, 255, 255, 0.805);
+}
+
+.description {
+  display: inline-block;
+  position: relative;
+  top: 10px;
+  font-size: 1.5rem;
+  text-align: justify;
+  color: rgba(255, 255, 255, 0.45);
+}
+
+.intro-list {
+  margin-top: 20px;
+}
+.listWithImage {
+  position: absolute;
+  left: 146px;
+}
+.listWithText {
+  position: absolute;
+  left: 227px;
+}
+.intro-list ul li {
+  list-style: none;
+  margin: 19px 10px;
+}
+.listWithImage img {
+  width: 50px;
+}
+.listWithText ul li {
+  font-size: 1.2rem;
+  padding: 16px 0px;
+}
+.listWithText ul li a {
+  text-decoration: none;
+  color: #00acf0c1;
+  font-weight: bold;
+  text-shadow: 2px 2px #8d018db8;
+}
+.listWithText ul li a:hover {
+  color: var(--blue-Color);
+  text-shadow: 2px 2px var(--purple-Color);
+  font-size: 1.25rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  margin: 40px 60px;
+}
+/* Education */
+#Education-Section {
+  margin: 100px 10px;
+}
+#Education-Section h1 {
+  font-size: 2rem;
+  color: var(--blue-Color);
+  text-shadow: 2px 2px var(--purple-Color);
+}
+#Education-Section h2 {
+  color: var(--blue-Color);
+}
+#Education-Section span {
+  color: var(--blueGreenShade-color);
+}
+
+#_10th {
+  display: flex;
+  font-size: 20px;
+  padding: 18px;
+  margin-left: 25px;
+}
+#_10th ul {
+  margin-left: 30px;
+}
+
+#_12th {
+  display: flex;
+  padding: 18px;
+  font-size: 20px;
+  margin-left: 25px;
+}
+#_12th ul {
+  margin-left: 30px;
+}
+#Information-Technology {
+  display: flex;
+  padding: 18px;
+  margin-left: 25px;
+}
+#Information-Technology h4 {
+  margin: 5px 10px;
+  color: var(--blueGreenShade-color);
+}
+.semester {
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+  font-size: 30px;
+  justify-content: space-between;
+}
+.sem {
+  background-color: var(--blue-Color);
+  border-radius: 1rem;
+  border: 5px solid  rgb(16, 108, 214);
+  margin-top: 30px;
+  width: 100%;
+  height: 40px;
+  position: relative;
+  overflow: hidden;
+}
+.sem::before {
+  position: absolute;
+  content: " ";
+  display: block;
+  background-color: var(--blueGreenShade-color);
+  width: var(--Value);
+  height: 45px;
+}
+
+.sem span {
+  display: inline-block;
+  margin: 1px 10px;
+  position: relative;
+  text-shadow: 2px 1px 3px var(--blue-Color);
+  z-index: 10;
+}
+
+#Education-Section .sem span {
+  font-weight: bold;
+  text-align: center;
+  color: var(--dark-Blue-Color);
+}
+
+#Information-Technology .Download-Option {
+  position: relative;
+  left: -700px;
+}
+/* SKills */
+
+
+#Skills-Section {
+  display: flex;
+  flex-direction: column;
+  background-color: #175078;
+  box-shadow: 0px 0px 50px 0px #00d4f565;
+  margin-top: 20px;
+  padding: 10px 10px;
+  padding-bottom: 30px;
+  font-family: "Courier New", Courier, monospace;
+}
+#Skills-Section h1 {
+  font-size: 4rem;
+  color: var(--blue-Color);
+  text-shadow: 2px 2px var(--purple-Color);
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 35px;
+}
+
+#Skills-Section h2 {
+  font-size: 1.2rem;
+  color: gold;
+  text-shadow: 1px 1px darkgoldenrod;
+  text-align: center;
+  margin-top: 30px;
+}
+
+
+/* Certificate Section */
+#Certificate-Section {
+  background-color: #175078;
+  box-shadow: 0px 0px 50px 0px #00d4f565;
+  margin: 40px 6px;
+  margin-top: 70px;
+  display: flex;
+}
+#Certificate-Section h1 {
+  margin-top: 10px;
+  margin-left: 20px;
+  font-size: 2rem;
+  color: #1edfa8;
+  text-shadow: 2px 2px #b65f13;
+}
+#Certificate-Section ul {
+  margin-left: 50px;
+  margin-top: 10px;
+  padding: 10px 10px;
+}
+#Certificate-Section ul li {
+  padding: 10px 10px;
+  margin-left: 20px;
+  font-size: 2.5rem;
+  color: #ffff00b7;
+  text-shadow: 1px 1px 2px #1edfa8;
+  transition: all ease 0.3s;
+}
+#Certificate-Section ul li:hover {
+  font-size: 3rem;
+  color: #f8f80d;
+}
+/*Hibi section */
+#Certificate-Section {
+  background-color: #175078;
+  box-shadow: 0px 0px 50px 0px #00d4f565;
+  margin: 40px 6px;
+  margin-top: 70px;
+  display: flex;
+}
+#hobi-section h1 {
+  margin-top: 10px;
+  margin-left: 20px;
+  font-size: 2rem;
+  color: #1edfa8;
+  text-shadow: 2px 2px #b65f13;
+}
+#hobi-section ul {
+  margin-left: 50px;
+  margin-top: 10px;
+  padding: 10px 10px;
+}
+#hobi-section ul li {
+  padding: 10px 10px;
+  margin-left: 20px;
+  font-size: 2.5rem;
+  color: #ffff00b7;
+  text-shadow: 1px 1px 2px #1edfa8;
+  transition: all ease 0.3s;
+}
+#hobi-section ul li:hover {
+  font-size: 3rem;
+  color: #f8f80d;
+}
+#hobi-section {
+  background-color: #175078;
+  box-shadow: 0px 0px 50px 0px #00d4f565;
+  margin: 40px 6px;
+  margin-top: 70px;
+  display: flex;
+}
+.rightOfCerti1 ul li {
+  list-style: none;
+  position: absolute;
+  right: 7rem;
+  opacity: 0;
+  transition: opacity 0.8s ease;
+}
+.rightOfCerti1 ul li img {
+  width: 600px;
+  height: 500px;
+  position: relative;
+  z-index: 1;
+}
+.rightOfCerti ul li {
+  list-style: none;
+  position: absolute;
+  right: 7rem;
+  opacity: 0;
+  transition: opacity 0.8s ease;
+}
+.rightOfCerti ul li img {
+  width: 700px;
+  height: 800px;
+  position: relative;
+  z-index: 1;
+}
+
+
+
+/* Footer section */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2.2rem;
+  padding-bottom: 2rem;
+  background-color: #00ffd51e;
+  
+}
+#ContactMe-Section {
+  display: inline-block;
+  width: 40%;
+  margin-left: 60px;
+}
+.footer h2 {
+  font-size: 1rem;
+  color: #00acf0;
+  text-shadow: 2px 1px var(--purple-Color);
+  padding: 10px 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.footer ul li {
+  list-style: none;
+  padding: 1px 2px;
+  font-family: "Playfair Display", serif;
+}
+#ContactMe-Section ul li:nth-child(1) {
+  margin-left: 20px;
+}
+#ContactMe-Section ul li:nth-child(1) a,
+#ContactMe-Section ul li:nth-child(2) a,
+#ContactMe-Section ul li:nth-child(3) a {
+  cursor: default;
+}
+#ContactMe-Section ul li:nth-child(2) {
+  margin-left: 40px;
+}
+#ContactMe-Section ul li:nth-child(3) {
+  margin-left: 60px;
+}
+#ContactMe-Section ul li:nth-child(4) {
+  margin-left: 80px;
+  text-decoration: underline;
+}
+#ContactMe-Section ul li:nth-child(5) {
+  margin-left: 100px;
+  text-decoration: underline;
+}
+
+#ContactMe-Section ul li a {
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+#Hobbies-Section {
+  width: 30%;
+}
+#Hobbies-Section ul li {
+  list-style: circle;
+  margin-left: 20px;
+}
+#Hobbies-Section ul li a {
+  color: aquamarine;
+}
+
+#credit {
+  padding: 4px 4px;
+  margin-bottom: 20px;
+  background-color: #00acf023;
+  text-align: center;
+  font-size: 1rem;
+}
+
+/* Utility Classes */
+.smooth-scroll {
+  transition: scroll 0.5s ease;
+}
